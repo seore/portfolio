@@ -25,6 +25,25 @@ if (yearEl) yearEl.textContent = new Date().getFullYear();
   });
 })();
 
+// ===== Years of experience auto-calc =====
+(function yearsCalc(){
+  const nodes = document.querySelectorAll('.years');
+  const now = new Date();
+  nodes.forEach(el => {
+    const start = el.getAttribute('data-start');
+    const out = el.querySelector('.yval');
+    if (!out) return;
+    if (!start) { out.textContent = '—'; return; }
+    const d = new Date(start);
+    if (isNaN(d)) { out.textContent = '—'; return; }
+    // Compute diff in years with 1 decimal
+    const diffMs = now - d;
+    const years = diffMs / (1000*60*60*24*365.25);
+    const y = Math.max(0, years);
+    out.textContent = (y < 1) ? y.toFixed(1) : y.toFixed(1);
+  });
+})();
+
 // Render projects on projects.html from projects.json
 (async function renderProjects(){
   const grid = document.getElementById('projectGrid');

@@ -22,19 +22,87 @@
 
   <main class="container">
     <section>
-      <h1 class="section-title">Skills & Tools</h1>
-      <div class="card">
-        <div class="skills">
-          <span class="tag">Java • Maven (POM)</span>
-          <span class="tag">Python • FastAPI</span>
-          <span class="tag">JavaScript • ES6+</span>
-          <span class="tag">HTML5 • CSS3</span>
-          <span class="tag">REST APIs</span>
-          <span class="tag">Git • GitHub</span>
-          <span class="tag">Accessibility (WCAG)</span>
-          <span class="tag">SEO • Analytics</span>
-          <span class="tag">Figma • Wireframing</span>
-        </div>
+      <h1 class="section-title">Skills</h1>
+      <p class="lead" style="margin-top:-6px">A quick, scannable view of what I use day to day. No bars, no fluff—just the tools and areas I’m effective with.</p>
+      <!-- Clean category layout (no tilt, more breathing room) -->
+      <div class="skill-sections">
+        <article class="skill-section card">
+          <header>
+            <h2>Backend & APIs</h2>
+            <p class="muted">Designing reliable services with clean interfaces and pragmatic error handling.</p>
+          </header>
+          <div class="cols">
+            <ul>
+              <li>Java • Maven (POM) <span class="years" data-start="2023-09-01"><b class="yval">—</b> yrs</span></li>
+              <li>Python • FastAPI <span class="years" data-start="2024-01-01"><b class="yval">—</b> yrs</span></li>
+              <li>RESTful API design <span class="years" data-start="2023-09-01"><b class="yval">—</b> yrs</span></li>
+              <li>Auth, validation, pagination <span class="years" data-start="2023-09-01"><b class="yval">—</b> yrs</span></li>
+            </ul>
+            <ul>
+              <li>Testing &amp; debugging <span class="years" data-start="2023-09-01"><b class="yval">—</b> yrs</span></li>
+              <li>Logging &amp; monitoring basics <span class="years" data-start="2024-01-01"><b class="yval">—</b> yrs</span></li>
+              <li>JSON schemas &amp; API docs <span class="years" data-start="2023-09-01"><b class="yval">—</b> yrs</span></li>
+              <li>Performance-minded endpoints <span class="years" data-start="2024-01-01"><b class="yval">—</b> yrs</span></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="skill-section card">
+          <header>
+            <h2>Frontend & UX</h2>
+            <p class="muted">Accessible, performant interfaces with thoughtful interaction.</p>
+          </header>
+          <div class="cols">
+            <ul>
+              <li>HTML5, CSS3, modern JS (ES6+) <span class="years" data-start="2022-09-01"><b class="yval">—</b> yrs</span></li>
+              <li>Responsive layouts <span class="years" data-start="2022-09-01"><b class="yval">—</b> yrs</span></li>
+              <li>State &amp; data fetching patterns <span class="years" data-start="2023-09-01"><b class="yval">—</b> yrs</span></li>
+            </ul>
+            <ul>
+              <li>Accessibility (WCAG) <span class="years" data-start="2023-01-01"><b class="yval">—</b> yrs</span></li>
+              <li>SEO fundamentals <span class="years" data-start="2023-01-01"><b class="yval">—</b> yrs</span></li>
+              <li>Design handoff in Figma <span class="years" data-start="2023-01-01"><b class="yval">—</b> yrs</span></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="skill-section card">
+          <header>
+            <h2>3D & Interactive</h2>
+            <p class="muted">Immersive visuals with a focus on performance and clarity.</p>
+          </header>
+          <div class="cols">
+            <ul>
+              <li>Unity • C# gameplay <span class="years" data-start="2024-01-01"><b class="yval">—</b> yrs</span></li>
+              <li>Three.js • WebGL <span class="years" data-start="2024-06-01"><b class="yval">—</b> yrs</span></li>
+              <li>VFX &amp; lighting basics <span class="years" data-start="2024-06-01"><b class="yval">—</b> yrs</span></li>
+            </ul>
+            <ul>
+              <li>Optimization strategies <span class="years" data-start="2024-06-01"><b class="yval">—</b> yrs</span></li>
+              <li>Asset pipelines <span class="years" data-start="2024-06-01"><b class="yval">—</b> yrs</span></li>
+              <li>Interaction design <span class="years" data-start="2023-09-01"><b class="yval">—</b> yrs</span></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="skill-section card">
+          <header>
+            <h2>Workflow & Collaboration</h2>
+            <p class="muted">Keeping delivery smooth and codebases easy to extend.</p>
+          </header>
+          <div class="cols">
+            <ul>
+              <li>Git & GitHub</li>
+              <li>Code reviews & PRs</li>
+              <li>Docs & READMEs</li>
+            </ul>
+            <ul>
+              <li>Task breakdown</li>
+              <li>Testing mindset</li>
+              <li>CI/CD basics</li>
+            </ul>
+          </div>
+        </article>
       </div>
     </section>
   </main>
@@ -46,5 +114,6 @@
   </footer>
 
   <script src="script.js" defer></script>
+  <script src="skills.js" defer></script>
 </body>
 </html>
