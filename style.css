@@ -71,6 +71,9 @@ label{font-weight:600}
 .years[data-skill="rest"]{ --bar:#8ca9ff; }
 .years[data-skill="html"]{ --bar:#c0a003; }
 .years[data-skill="sql"]{ --bar:#ff8a65; }
+.years[data-skill="typescript"]{ --bar:#08c4a1; }
+.years[data-skill="react"]{ --bar:#97046d; }
+.years[data-skill="swift"]{ --bar:#039735; }
 .years[data-skill="html"]{ --bar:#04a7b0; }
 .years[data-skill="css"]{ --bar:#6ea8ff; }
 .years[data-skill="git"]{ --bar:#f28b82; }
