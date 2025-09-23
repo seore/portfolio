@@ -1,15 +1,39 @@
 [
   {
     "title": "Expense Tracker",
-    "description": "Server‑driven expense app using Java (Maven), Python services and REST APIs. Tracks, filters and exports data.",
+    "description": "Server-driven expense app using Java (Maven), Python services and REST APIs. Tracks, filters and exports data.",
     "tags": ["Java", "Python", "REST", "Maven"],
     "url": "https://github.com/YOUR-GITHUB/expense-tracker",
     "live": "https://your-live-demo-url.com",
-    "image": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=1200&auto=format&fit=crop"
+    "image": "assets/images/expenseTrack.png"
+  },
+  {
+    "title": "Aetherborn: Portal of Worlds",
+    "description": "An immersive 3D fantasy RPG built with Unity. Features a mystical world, combat system, and atmospheric environments.",
+    "tags": ["Unity", "C#", "Game Dev", "3D"],
+    "url": "https://github.com/YOUR-GITHUB/3d-fantasy-game",
+    "live": "#",
+    "image": "assets/images/gameTitle.png"
+  },
+  {
+    "title": "Phantom Trails",
+    "description": "Fast-paced 3D action adventure game with combat mechanics and cinematic effects.",
+    "tags": ["Unity", "C#", "VFX", "Gameplay"],
+    "url": "https://github.com/YOUR-GITHUB/3d-action-game",
+    "live": "#",
+    "image": "assets/images/working title background.png"
+  },
+  {
+    "title": "3D Interactive Web App",
+    "description": "A portfolio-style interactive 3D web experience built with HTML, CSS, JavaScript, and Three.js.",
+    "tags": ["Three.js", "JavaScript", "WebGL", "3D"],
+    "url": "https://github.com/YOUR-GITHUB/3d-web-app",
+    "live": "https://your-live-webapp-url.com",
+    "image": "https://images.unsplash.com/photo-1622495891083-7f79a3df833a?q=80&w=1200&auto=format&fit=crop"
   },
   {
     "title": "Portfolio 3D Gallery",
-    "description": "Interactive gallery with accessible UI and performance‑minded animations.",
+    "description": "Interactive gallery with accessible UI and performance-minded animations.",
     "tags": ["JavaScript", "CSS", "Accessibility"],
     "url": "https://github.com/YOUR-GITHUB/3d-gallery",
     "live": "#",
@@ -18,7 +42,7 @@
   {
     "title": "API Dashboard",
     "description": "Frontend dashboard consuming multiple APIs with caching and error handling.",
-    "tags": ["JS", "APIs", "UX"],
+    "tags": ["JavaScript", "APIs", "UX"],
     "url": "https://github.com/YOUR-GITHUB/api-dashboard",
     "live": "#",
     "image": "https://images.unsplash.com/photo-1508923567004-3a6b8004f3d1?q=80&w=1200&auto=format&fit=crop"

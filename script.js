@@ -15,13 +15,23 @@ if (btn) btn.addEventListener('click', () => {
 const yearEl = document.getElementById('year');
 if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-// Render projects from projects.json (CMS-style)
+// Highlight active nav (based on path)
+(function highlightActive(){
+  const path = location.pathname.replace(/\/index\.html$/, '/');
+  document.querySelectorAll('.actions a').forEach(a => {
+    const href = a.getAttribute('href');
+    const isActive = (href === path) || (href !== '/' && path.endsWith(href));
+    if (isActive) a.classList.add('active');
+  });
+})();
+
+// Render projects on projects.html from projects.json
 (async function renderProjects(){
+  const grid = document.getElementById('projectGrid');
+  if (!grid) return; // only on projects page
   try {
-    const res = await fetch('projects.json', {cache:'no-store'});
+    const res = await fetch('/projects.json', {cache:'no-store'});
     const items = await res.json();
-    const grid = document.getElementById('projectGrid');
-    if (!grid) return;
     grid.innerHTML = '';
     items.forEach(p => {
       const card = document.createElement('article');
@@ -41,9 +51,6 @@ if (yearEl) yearEl.textContent = new Date().getFullYear();
         </div>`;
       grid.appendChild(card);
     });
-    // Update KPI count
-    const kpi = document.getElementById('kpiProjects');
-    if (kpi) kpi.textContent = `${items.length}+`;
   } catch (e) {
     console.error('projects.json missing or invalid', e);
   }
