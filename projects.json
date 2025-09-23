@@ -3,7 +3,7 @@
     "title": "Expense Tracker",
     "description": "Server-driven expense app using Java (Maven), Python services and REST APIs. Tracks, filters and exports data.",
     "tags": ["Java", "Python", "REST", "Maven"],
-    "url": "https://github.com/YOUR-GITHUB/expense-tracker",
+    "url": "https://github.com/seore/ExpenseTracker-project.git",
     "live": "https://your-live-demo-url.com",
     "image": "assets/images/expenseTrack.png"
   },
@@ -11,7 +11,7 @@
     "title": "Aetherborn: Portal of Worlds",
     "description": "An immersive 3D fantasy RPG built with Unity. Features a mystical world, combat system, and atmospheric environments.",
     "tags": ["Unity", "C#", "Game Dev", "3D"],
-    "url": "https://github.com/YOUR-GITHUB/3d-fantasy-game",
+    "url": "https://github.com/seore/Aetherborn-gameproj.git",
     "live": "#",
     "image": "assets/images/gameTitle.png"
   },
@@ -30,14 +30,6 @@
     "url": "https://github.com/YOUR-GITHUB/3d-web-app",
     "live": "https://your-live-webapp-url.com",
     "image": "https://images.unsplash.com/photo-1622495891083-7f79a3df833a?q=80&w=1200&auto=format&fit=crop"
-  },
-  {
-    "title": "Portfolio 3D Gallery",
-    "description": "Interactive gallery with accessible UI and performance-minded animations.",
-    "tags": ["JavaScript", "CSS", "Accessibility"],
-    "url": "https://github.com/YOUR-GITHUB/3d-gallery",
-    "live": "#",
-    "image": "https://images.unsplash.com/photo-1553484771-371a605b060b?q=80&w=1200&auto=format&fit=crop"
   },
   {
     "title": "API Dashboard",
