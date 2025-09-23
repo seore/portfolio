@@ -25,24 +25,45 @@ if (yearEl) yearEl.textContent = new Date().getFullYear();
   });
 })();
 
-// ===== Years of experience auto-calc =====
+
 (function yearsCalc(){
+  const MAX_YEARS = 10; 
   const nodes = document.querySelectorAll('.years');
   const now = new Date();
   nodes.forEach(el => {
     const start = el.getAttribute('data-start');
     const out = el.querySelector('.yval');
     if (!out) return;
-    if (!start) { out.textContent = '—'; return; }
+    if (!start) { 
+      out.textContent = '—'; 
+      el.style.setProperty('--pct','0%'); 
+      return; 
+    }
     const d = new Date(start);
-    if (isNaN(d)) { out.textContent = '—'; return; }
-    // Compute diff in years with 1 decimal
-    const diffMs = now - d;
-    const years = diffMs / (1000*60*60*24*365.25);
-    const y = Math.max(0, years);
-    out.textContent = (y < 1) ? y.toFixed(1) : y.toFixed(1);
+    if (isNaN(d)) { 
+      out.textContent = '—'; 
+      el.style.setProperty('--pct','0%'); 
+      return; 
+    }
+    let years = now.getFullYear() - d.getFullYear();
+    const m = now.getMonth() - d.getMonth();
+    const dayDelta = now.getDate() - d.getDate();
+    if (m < 0 || (m === 0 && dayDelta < 0)) {
+      years -= 1; 
+    }
+    const whole = Math.max(0, years);
+    out.textContent = whole; // shows 0, 1, 2, 3...
+    const pct = Math.min(100, (whole / MAX_YEARS) * 100);
+    el.style.setProperty('--pct', pct + '%');
+    el.setAttribute('role','progressbar');
+    el.setAttribute('aria-valuemin','0');
+    el.setAttribute('aria-valuemax', String(MAX_YEARS));
+    el.setAttribute('aria-valuenow', whole);
+    el.setAttribute('aria-label', `${el.getAttribute('data-skill') || 'skill'} experience in years`);
   });
 })();
+
+
 
 // Render projects on projects.html from projects.json
 (async function renderProjects(){

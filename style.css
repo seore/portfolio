@@ -33,7 +33,7 @@ section{padding:38px 0}
 .proj-title{font-weight:700;margin:0}
 .proj-desc{color:var(--muted);font-size:.95rem}
 .pill-actions{display:flex;gap:10px;flex-wrap:wrap}
-.skills{display:flex;flex-wrap:wrap;gap:10px}
+.skills{display:flex;flex-wrap:wrap;gap:2px}
 .resume{display:grid;grid-template-columns:1fr 1fr;gap:18px}
 .timeline{border-left:2px dashed color-mix(in srgb,var(--muted) 40%, transparent);padding-left:14px}
 .time-item{margin:0 0 16px}
@@ -43,5 +43,40 @@ section{padding:38px 0}
 :focus-visible{outline:3px solid var(--ring);outline-offset:3px;border-radius:10px}
 input, textarea {width:100%;margin-top:6px;padding:12px 12px;border-radius:12px;border:1px solid color-mix(in srgb,var(--muted) 26%, transparent);background:var(--card);color:var(--text)}
 label{font-weight:600}
-.years{display:inline-flex;gap:6px;margin-left:8px;padding:2px 8px;border-radius:999px;border:1px solid color-mix(in srgb,var(--muted) 26%, transparent);background:color-mix(in srgb,var(--accent) 12%, transparent);font-size:.8rem;color:var(--text)}
-.years .yval{font-weight:800}
+.years {
+  position: relative;
+  display: block;
+  margin: 8px 0 0;
+  padding: 6px 10px;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--muted) 26%);
+  border: 1px solid color-mix(in srgb, var(--muted) 26%);
+  color: var(--text);
+}
+.years::after {
+  content: "";
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: var(--pct, 0%);
+  z-index: 0;
+  border-radius: 12px;
+  background: var(--bar, var(--brand));
+  opacity: 1;
+}
+.years .yval, .yrs-label { position: relative; font-weight: 800; color: var(--text); z-index: 1;}
+.years[data-skill="java"]{ --bar:#ff7b7b; }
+.years[data-skill="python"]{ --bar:#6bd194; }
+.years[data-skill="javascript"]{ --bar:#ffd569; }
+.years[data-skill="maven"]{ --bar:#df2929; }
+.years[data-skill="rest"]{ --bar:#8ca9ff; }
+.years[data-skill="html"]{ --bar:#c0a003; }
+.years[data-skill="sql"]{ --bar:#ff8a65; }
+.years[data-skill="html"]{ --bar:#04a7b0; }
+.years[data-skill="css"]{ --bar:#6ea8ff; }
+.years[data-skill="git"]{ --bar:#f28b82; }
+.years[data-skill="unity"]{ --bar:#b39ddb; }
+.years[data-skill="csharp"]{ --bar:#9ccc65; }
+.years[data-skill="threejs"]{ --bar:#80deea; }
+.years[data-skill="figma"]{ --bar:#f48fb1; }
+.years[data-skill="vfx"]{ --bar:#58447c; }
+
