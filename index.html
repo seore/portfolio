@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Seore Soyannwo – Portfolio</title>
+  <meta name="description" content="Seore Soyannwo – developer & designer. Projects, skills, resume and contact." />
+  <link rel="canonical" href="https://www.seoresoyannwoportfolio.com/" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Seore Soyannwo – Portfolio" />
+  <meta property="og:description" content="Projects, skills, resume and contact." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.seoresoyannwoportfolio.com/" />
+  <meta property="og:image" content="/assets/og-image.jpg" />
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Seore Soyannwo",
+    "url":"https://www.seoresoyannwoportfolio.com/",
+    "jobTitle":"Developer",
+    "sameAs":["https://www.linkedin.com/in/YOUR-LINKEDIN", "https://github.com/YOUR-GITHUB"]
+  }
+  </script>
+</head>
+<body>
+  <header class="site">
+    <nav class="container nav" aria-label="Primary">
+      <div class="brand">Seore Soyannwo</div>
+      <div class="actions">
+        <a class="btn ghost" href="#projects">Projects</a>
+        <a class="btn ghost" href="#skills">Skills</a>
+        <a class="btn" href="#contact">Contact</a>
+        <button class="btn" id="themeToggle" aria-pressed="false" aria-label="Toggle theme">🌓</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div>
+        <span class="badge">Open for opportunities</span>
+        <h1 class="headline">Building clean, reliable <span class="u">web experiences</span>.</h1>
+        <p class="lead">I craft performant web apps with <strong>Java</strong>, <strong>Python</strong>, and modern <strong>JavaScript</strong>. I enjoy solving real problems with pragmatic engineering and thoughtful design.</p>
+        <div class="pill-actions" style="margin-top:14px">
+          <a class="btn" href="#projects">View Projects</a>
+          <a class="btn ghost" href="/assets/Seore-Soyannwo-Resume.pdf" download>Download Résumé</a>
+          <a class="btn ghost" href="https://github.com/YOUR-GITHUB" target="_blank" rel="noopener">GitHub</a>
+        </div>
+        <div class="kpis" aria-label="Highlights">
+          <div class="kpi"><div class="num" id="kpiProjects">10+</div><div>Projects</div></div>
+          <div class="kpi"><div class="num">Full‑stack</div><div>Java • Python • JS</div></div>
+          <div class="kpi"><div class="num">A11y • SEO</div><div>Best Practices</div></div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <img class="avatar" src="https://images.unsplash.com/photo-1520081445554-c1f7a9bd8c5e?q=80&w=1200&auto=format&fit=crop" alt="Abstract gradient workstation" />
+        <p class="lead" style="margin-top:12px">Currently improving my <strong>Expense Tracker</strong> – a server‑driven app using <strong>Java (Maven)</strong>, <strong>Python</strong> and <strong>REST APIs</strong>.</p>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects" id="projectGrid" aria-live="polite"></div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <h2 class="section-title">Skills & Tools</h2>
+      <div class="card">
+        <div class="skills">
+          <span class="tag">Java • Maven (POM)</span>
+          <span class="tag">Python • FastAPI</span>
+          <span class="tag">JavaScript • ES6+</span>
+          <span class="tag">HTML5 • CSS3</span>
+          <span class="tag">REST APIs</span>
+          <span class="tag">Git • GitHub</span>
+          <span class="tag">Accessibility (WCAG)</span>
+          <span class="tag">SEO • Analytics</span>
+          <span class="tag">Figma • Wireframing</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUME / TIMELINE -->
+    <section id="resume">
+      <h2 class="section-title">Experience & Education</h2>
+      <div class="resume">
+        <div class="card timeline">
+          <h3>Experience</h3>
+          <div class="time-item">
+            <strong>Full‑stack Developer</strong> — Freelance<br/>
+            <small>2024 – Present</small>
+            <p class="proj-desc">Delivering small business sites and internal tools. Focus on clean architecture, API design, and DX.</p>
+          </div>
+          <div class="time-item">
+            <strong>Web Developer (Intern)</strong><br/>
+            <small>2023 – 2024</small>
+            <p class="proj-desc">Built dashboards and automated reporting. Improved page performance and accessibility.</p>
+          </div>
+        </div>
+        <div class="card timeline">
+          <h3>Education</h3>
+          <div class="time-item">
+            <strong>BSc – Computer Science</strong><br/>
+            <small>Graduated</small>
+            <p class="proj-desc">Projects in data structures, networking, and full‑stack web development.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2 class="section-title">Contact</h2>
+      <div class="card">
+        <p class="proj-desc">Want to collaborate or chat about a role? Send a message:</p>
+        <form id="contactForm" class="grid" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr))">
+          <div>
+            <label for="name">Name</label>
+            <input id="name" name="name" required placeholder="Your name" />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required placeholder="you@example.com" />
+          </div>
+          <div style="grid-column:1/-1">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project or role…"></textarea>
+          </div>
+          <div>
+            <button class="btn" type="submit">Send Message</button>
+          </div>
+        </form>
+        <p id="formStatus" role="status" aria-live="polite" class="lead" style="margin-top:8px"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="grid" style="grid-template-columns:1fr auto; align-items:center">
+        <small>© <span id="year"></span> Seore Soyannwo. All rights reserved.</small>
+        <div class="pill-actions">
+          <a class="btn ghost" href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn ghost" href="mailto:hello@seoresoyannwoportfolio.com">Email</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
