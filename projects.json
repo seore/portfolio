@@ -29,6 +29,6 @@
     "tags": ["Python", "SQL", "Django", "REST", "HTML"],
     "url": "https://github.com/seore/PaymentSystem-webApp.git",
     "live": "https://your-live-webapp-url.com",
-    "image": "assets/images/paysystemWebapp.png"
+    "image": "assets/images/payWebapp.png"
   }
 ]
