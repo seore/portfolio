@@ -25,10 +25,10 @@
   },
   {
     "title": "Payment System Web App",
-    "description": "A portfolio-style interactive 3D web experience built with HTML, CSS, JavaScript, and Three.js.",
+    "description": "Pay System is a secure web app to send and request money, manage transactions, and handle admin tasks.",
     "tags": ["Python", "SQL", "Django", "REST", "HTML"],
     "url": "https://github.com/seore/PaymentSystem-webApp.git",
-    "live": "https://your-live-webapp-url.com",
+    "live": "https://paymentsystem-gq34.onrender.com",
     "image": "assets/images/payWebapp.png"
   }
 ]
