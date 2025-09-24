@@ -32,11 +32,11 @@
     "image": "https://images.unsplash.com/photo-1622495891083-7f79a3df833a?q=80&w=1200&auto=format&fit=crop"
   },
   {
-    "title": "API Dashboard",
-    "description": "Frontend dashboard consuming multiple APIs with caching and error handling.",
-    "tags": ["JavaScript", "APIs", "UX"],
-    "url": "https://github.com/YOUR-GITHUB/api-dashboard",
-    "live": "#",
-    "image": "https://images.unsplash.com/photo-1508923567004-3a6b8004f3d1?q=80&w=1200&auto=format&fit=crop"
+    "title": "Payment System Web App",
+    "description": "A portfolio-style interactive 3D web experience built with HTML, CSS, JavaScript, and Three.js.",
+    "tags": ["Three.js", "JavaScript", "WebGL", "3D"],
+    "url": "https://github.com/YOUR-GITHUB/3d-web-app",
+    "live": "https://your-live-webapp-url.com",
+    "image": "https://images.unsplash.com/photo-1622495891083-7f79a3df833a?q=80&w=1200&auto=format&fit=crop"
   }
 ]
