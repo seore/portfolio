@@ -18,8 +18,8 @@
   {
     "title": "Phantom Trails",
     "description": "Fast-paced 3D action adventure game with combat mechanics and cinematic effects.",
-    "tags": ["Unity", "C#", "VFX", "Gameplay"],
-    "url": "https://github.com/YOUR-GITHUB/3d-action-game",
+    "tags": ["Unity", "C#", "VFX", "Gameplay", "3D Modelling"],
+    "url": "https://github.com/seore/phantom-trails-game-proj.git",
     "live": "#",
     "image": "assets/images/working title background.png"
   },
