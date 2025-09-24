@@ -4,7 +4,7 @@
     "description": "Server-driven expense app using Java (Maven), Python services and REST APIs. Tracks, filters and exports data.",
     "tags": ["Java", "Python", "REST", "Maven"],
     "url": "https://github.com/seore/ExpenseTracker-project.git",
-    "live": "https://your-live-demo-url.com",
+    "live": " https://expensetracker-project-jdk8.onrender.com",
     "image": "assets/images/expenseTrack.png"
   },
   {
