@@ -38,5 +38,13 @@
     "url": "https://github.com/seore/trafficRush-PY-Game.git",
     "live": "#",
     "image": "assets/images/TRGame.png"
+  },
+  {
+    "title": "First Aid Offline",
+    "description": "FirstAid Pocket is an interactive desktop app that provides quick, easy-to-follow first-aid instructions for common injuries and emergencies.",
+    "tags": ["Python", "JSON", "PyQt6", "VS Code", "Git"],
+    "url": "https://github.com/seore/firstAid-Concept.git",
+    "live": "#",
+    "image": "assets/images/First Aid Offline.png"
   }
 ]
