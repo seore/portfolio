@@ -28,7 +28,7 @@
     "description": "Payment System is a secure web app to send and request money, manage transactions, and handle admin tasks.",
     "tags": ["Python", "SQL", "Django", "REST", "HTML"],
     "url": "https://github.com/seore/PaymentSystem-webApp.git",
-    "live": "https://paymentsystem-gq34.onrender.com",
+    "live": "vyo-payapp.onrender.com",
     "image": "assets/images/payWebapp.png"
   },
   {
