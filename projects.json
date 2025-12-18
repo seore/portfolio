@@ -45,7 +45,7 @@
   "tags": ["Python", "PyTorch", "Reinforcement Learning", "Deep Q-Learning", "Pygame"],
   "url": "https://github.com/seore/self-agent-ML.git",
   "live": "#",
-  "image": "assets/images/gameScreen.png"
+  "image": "#"
   },
   {
     "title": "Movie Recommender",
