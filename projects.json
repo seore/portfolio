@@ -24,6 +24,30 @@
     "image": "assets/images/gameScreen.png"
   },
   {
+  "title": "Fraud Detection AI",
+  "description": "An end-to-end machine learning system for detecting credit card fraud using supervised models, anomaly detection, and deep learning. Includes SMOTE for class imbalance, explainable AI (SHAP), interactive threshold tuning, and a Streamlit dashboard for real-time predictions.",
+  "tags": [
+    "Python",
+    "Machine Learning",
+    "TensorFlow",
+    "SMOTE",
+    "SHAP",
+    "Streamlit",
+    "Data Science"
+  ],
+  "url": "https://github.com/seore/fraud-detect.git",
+  "live": "#",
+  "image": "assets/images/fd.png"
+  },
+  {
+  "title": "Self-Learning Game Agent (Deep Q-Learning)",
+  "description": "A reinforcement learning project where an AI agent learns to play Snake and Flappy Bird using Deep Q-Learning, experience replay, and target networks. Includes training, evaluation, and play-only modes with performance tracking.",
+  "tags": ["Python", "PyTorch", "Reinforcement Learning", "Deep Q-Learning", "Pygame"],
+  "url": "https://github.com/seore/self-agent-ML.git",
+  "live": "#",
+  "image": "assets/images/gameScreen.png"
+  },
+  {
     "title": "Movie Recommender",
     "description": "Hybrid movie recommendations using content + collaborative filtering.",
     "tags": ["Python3", "FastAPI", "PyTorch", "SciPy/NumPy", "JavaScript", "HTML&CSS"],
