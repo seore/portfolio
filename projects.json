@@ -20,7 +20,7 @@
     "description": "A Minimal Cyber Puzzle — Rotate, Connect, and Hack the Network.",
     "tags": ["JavaScript", "CSS", "HTML"],
     "url": "https://github.com/seore/hacker-grid-game.git",
-    "live": "seore.github.io/hacker-grid-game/",
+    "live": "https://seore.github.io/hacker-grid-game/",
     "image": "assets/images/gameScreen.png"
   },
   {
@@ -78,13 +78,5 @@
     "url": "https://github.com/seore/PaymentSystem-webApp.git",
     "live": "vyo-payapp.onrender.com",
     "image": "assets/images/payWebapp.png"
-  },
-  {
-    "title": "Traffic Rush Python Game",
-    "description": "Traffic Rush is an adrenaline-pumping lane-based driving game where players dodge traffic, collect coins, and complete missions. Navigate challenging roads, unlock vehicles, and power up for endless high-speed fun.",
-    "tags": ["Python", "JSON", "Pygame", "OOP"],
-    "url": "https://github.com/seore/trafficRush-PY-Game.git",
-    "live": "#",
-    "image": "assets/images/TRGame.png"
   }
 ]
