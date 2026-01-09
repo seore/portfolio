@@ -16,9 +16,9 @@
     "image": "assets/images/expenseTrack.png"
   },
   {
-  "title": "NeighbourWatch - Real-Time Community Security App",
+  "title": "NeighbourWatch - Community Security App",
   "description": "A mobile security app for residential estates enabling real-time incident reporting, visitor management, and emergency response coordination. Features live alerts, comment threads, visitor approval workflows, and direct communication with security teams through Supabase real-time database synchronization.",
-  "tags": ["React Native", "TypeScript", "Expo", "Supabase", "Real-time Database", "Mobile Development"],
+  "tags": ["React Native", "TypeScript", "Expo", "Supabase", "Mobile Development"],
   "url": "https://github.com/seore/neighbourWatch.git",
   "live": "#",
   "image": "assets/images/neighbourW.png"
