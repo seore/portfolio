@@ -5,7 +5,23 @@
     "tags": ["Python", "JSON", "PyQt6", "VS Code", "Git"],
     "url": "https://github.com/seore/firstAid-Concept.git",
     "live": "#",
-    "image": "assets/images/First Aid Offline.png"
+    "image": "assets/images/aidly.png"
+  },
+  {
+    "title": "SDG Awareness App",
+    "description": "Interactive mobile app promoting Sustainable Development Goals (SDGs). Features quizzes, progress tracking, and educational resources.",
+    "tags": ["Flutter", "Dart", "Firebase", "Mobile App"],
+    "url": "https://github.com/seore/SDG-App.git",
+    "live": "#",
+    "image": "assets/images/sdgApp.png"
+  },
+  {
+    "title": "Orion Desktop Assistant",
+    "description": "AI-powered desktop assistant for Windows/macOS. Handles tasks like reminders, file search, and system commands using Python and voice recognition.",
+    "tags": ["Python", "AI", "Voice Recognition", "Desktop App"],
+    "url": "https://github.com/seore/orion-personalAssistant.git",
+    "live": "#",
+    "image": "assets/images/orionAssistant.png"
   },
   {
     "title": "Expense Tracker",
