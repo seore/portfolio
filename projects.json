@@ -14,7 +14,8 @@
     "tags": ["Flutter", "Dart", "Firebase", "Mobile App"],
     "url": "https://github.com/seore/SDG-App.git",
     "live": "#",
-    "image": "assets/images/sdgApp.png"
+    "image": "assets/images/SDG.png",
+    "height": "150px"
   },
   {
     "title": "Orion Desktop Assistant",
