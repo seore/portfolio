@@ -5,7 +5,8 @@
     "tags": ["Python", "JSON", "PyQt6", "VS Code", "Git"],
     "url": "https://github.com/seore/firstAid-Concept.git",
     "live": "#",
-    "image": "assets/images/aidlyy.png"
+    "image": "assets/images/aidlyy.png",
+    "height": "150px"
   },
   {
     "title": "SDG Awareness App",
